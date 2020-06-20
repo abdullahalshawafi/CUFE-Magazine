@@ -303,15 +303,16 @@ color: white;}
 
 .showAll{
   position: absolute;
-  background-color: hsla(0, 2%, 28%, 0.596);
+  background-color: rgb(17, 17, 17);
   font-size: 25px;
   font-weight: bold;
   left: 1%;
-  top: 10px;
+  top: 15px;
   width: 160px;
   text-align: center;
   padding: 20px;}
-.showAll a {  color: #ffd000;}
+.showAll a {text-align: center; text-decoration: none; color: #ffd000;}
+.showAll :hover {color: white;}
 
 .editionImgContainer1{
   position: absolute;
@@ -450,8 +451,65 @@ color: white;}
 
 .footer{
   position: absolute;
+  display: flex;
   top: 5750px;
-  height: 400px;
+  height: 450px;
   width: 100%;
   background-color: black;}
 
+.footerBox{
+  position: relative;
+  width: 25%;
+  height: 100%;s
+}
+
+.CUFE-footer{
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 90px;
+  top: 50px;
+}
+.MAGAZINE-footer{
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 90px;
+  top: 120px;
+}
+
+.text-in-footerBox{
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 90px;
+  top: 240px;
+}
+
+.footerArticle{
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 60px;
+  top: 70px;
+}
+
+.footerText{
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  position: absolute;
+  left: 60px;
+  top: 170px;
+}
+.footerText li {padding: 5px;}
+.footerText a {text-decoration: none; color: white;}
+.footerText :hover {color: reds;}
