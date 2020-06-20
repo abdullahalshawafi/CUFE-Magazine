@@ -1,22 +1,22 @@
 body {
   font-family: Georgia, Times, "Times New Roman", serif;
-  margin: 0;}
+  margin: 0;
+}
 
 .icon-bar {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  left: 1%;}
+  left: 1%;
+}
 
 .icon-bar a {
   display: block;
   text-align: center;
   padding: 16px;
-  font-size: 25px;}
-
-.facebook {color: white;}
-.twitter {color: white;}
-.youtube {  color: white;}
+  font-size: 25px;
+  color: white;
+}
 
 .icon-bar a {
   display: block;
@@ -25,7 +25,8 @@ body {
   padding-top: 15px;
   margin-left: 15px;
   font-size: 20px;
-  color: white;}
+  color: white;
+}
 
 .vertical {
   writing-mode: tb-rl;
@@ -36,7 +37,8 @@ body {
   margin-right: 1%;
   color: white;
   font-size: 25px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .container11 {
   background-image: url("Pic/Cover1.jpeg");
@@ -50,7 +52,8 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .container12 {
   background-color: hsl(233, 50%, 10%);
@@ -65,7 +68,8 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .container13 {
   background-image: url("Pic/Background1.png");
@@ -81,13 +85,15 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .topnav {
   overflow: hidden;
   display: flex;
   justify-content: space-evenly;
-  justify-items: center;}
+  justify-items: center;
+}
 
 .topnav a {
   float: left;
@@ -99,12 +105,15 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  transition: all 0.3s;}
+  transition: all 0.3s;
+}
 
 .topnav a:hover {
-  color: red;}
+  color: red;
+}
 .topnav .icon {
-  display: none;}
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
@@ -113,26 +122,30 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
-  }}
+  }
+}
 
 .Who {
   height: 600px;
   width: 100%;
   position: absolute;
-  top: 1000px;}
+  top: 1000px;
+}
 
 .sidebar1 {
   position: absolute;
   width: 40%;
   height: 600px;
   background-color: hsl(22, 100%, 50%);
-  left: 60%;}
+  left: 60%;
+}
 
 .mainbar1 {
   position: absolute;
   width: 60%;
   height: 600px;
-  background-image: url("Pic/cover2.jpeg");}
+  background-image: url("Pic/cover2.jpeg");
+}
 
 .KnowUs {
   height: 1150px;
@@ -140,7 +153,8 @@ body {
   position: absolute;
   top: 1600px;
   background-color: hsl(233, 50%, 10%);
-  opacity: 0.9;}
+  opacity: 0.9;
+}
 
 .rowKnowWord {
   color: white;
@@ -150,7 +164,8 @@ body {
   padding: 30px;
   font-size: 40px;
   font-weight: bold;
-  margin-top: 4%;}
+  margin-top: 4%;
+}
 
 .imgKnow {
   height: 600px;
@@ -160,7 +175,8 @@ body {
   display: flex;
   justify-items: center;
   justify-content: center;
-  left: 7%;}
+  left: 7%;
+}
 
 .imgKnow1 {
   height: 600px;
@@ -169,7 +185,8 @@ body {
   left: 0;
   background-image: url("Pic/Profile1.jpg");
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;
+}
 
 .imgKnow2 {
   height: 600px;
@@ -178,7 +195,8 @@ body {
   left: 53%;
   background-image: url("Pic/Profile2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;}
+  background-size: cover;
+}
 
 .rowKnow {
   height: 600px;
@@ -188,7 +206,8 @@ body {
   display: flex;
   justify-items: center;
   justify-content: center;
-  left: 6%;}
+  left: 6%;
+}
 
 .colKnow1 {
   height: 100px;
@@ -196,7 +215,8 @@ body {
   position: absolute;
   left: 53.5%;
   text-align: center;
-  color: white;}
+  color: white;
+}
 
 .colKnow2 {
   height: 100px;
@@ -204,7 +224,8 @@ body {
   position: absolute;
   left: 1.5%;
   text-align: center;
-  color: white;}
+  color: white;
+}
 
 .KnowMore {
   display: flex;
@@ -215,7 +236,8 @@ body {
   padding: 0;
   text-align: center;
   color: white;
-  top: 120px;}
+  top: 120px;
+}
 
 .knowYelBox {
   width: 90px;
@@ -224,41 +246,52 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-  color: black;}
+  color: black;
+}
+
 .knowYelBox a {
   text-decoration: none;
-  color: black;}
+  color: black;
+}
+
 .yellow-Box-Text {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
   color: black;
   padding-top: 5px;
-  padding-bottom: 10px;}
+  padding-bottom: 10px;
+}
 
 .knowWhiteBox {
   width: 230px;
   height: 100%;
-  background-color: white;}
+  background-color: white;
+}
+
 .knowWhiteBox a {
   text-decoration: none;
-  color: black;}
+  color: black;
+}
+
 .knowWhiteBox :hover {
   background-color: grey;
-  color: white;}
+  color: white;
+}
+
 .white-Box-Text {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   color: black;
   padding-top: 16px;
-  padding-bottom: 15px;}
+  padding-bottom: 15px;
+}
 
 .container21 {
   background-image: url("Pic/Cover2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 1;
   filter: blur(8px);
   -webkit-filter: blur(8px);
   width: 100%;
@@ -266,10 +299,10 @@ body {
   top: 2750px;
   position: absolute;
   text-align: center;
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .container22 {
   background-color: rgba(255, 208, 0, 0.692);
@@ -284,14 +317,16 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .ourEditions {
   position: absolute;
   height: 100px;
   width: 70%;
   top: 2850px;
-  left: 15%;}
+  left: 15%;
+}
 
 .editionWord {
   position: absolute;
@@ -300,7 +335,8 @@ body {
   left: 85%;
   font-size: 50px;
   font-weight: bold;
-  color: white;}
+  color: white;
+}
 
 .showAll {
   position: absolute;
@@ -311,9 +347,16 @@ body {
   top: 15px;
   width: 160px;
   text-align: center;
-  padding: 20px;}
-.showAll a {text-align: center; text-decoration: none; color: #ffd000;}
-.showAll :hover {color: white;}
+  padding: 20px;
+}
+.showAll a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffd000;
+}
+.showAll :hover {
+  color: white;
+}
 
 .editionImgContainer1 {
   position: absolute;
@@ -321,14 +364,16 @@ body {
   top: 3050px;
   left: 15%;
   height: 700px;
-  width: 70%;}
+  width: 70%;
+}
 
 .editionImgContainer2 {
   position: absolute;
   top: 3900px;
   left: 15%;
   height: 700px;
-  width: 70%;}
+  width: 70%;
+}
 
 .edition1 {
   position: absolute;
@@ -338,7 +383,8 @@ body {
   background-repeat: no-repeat;
   left: 55%;
   height: 700px;
-  width: 50%;}
+  width: 50%;
+}
 
 .edition2 {
   position: absolute;
@@ -347,7 +393,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  width: 50%;}
+  width: 50%;
+}
 
 .edition3 {
   position: absolute;
@@ -356,7 +403,8 @@ body {
   background-position: center;
   left: 55%;
   height: 700px;
-  width: 50%;}
+  width: 50%;
+}
 
 .edition4 {
   position: absolute;
@@ -364,7 +412,8 @@ body {
   background-size: cover;
   background-position: center;
   height: 700px;
-  width: 50%;}
+  width: 50%;
+}
 
 .container31 {
   background-image: url("Pic/Cover1.jpeg");
@@ -379,7 +428,8 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-bsackground-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .container32 {
   background-color: hsl(233, 50%, 10%);
@@ -394,18 +444,24 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;}
+  -o-background-size: cover;
+}
 
 .userComments {
   position: absolute;
   top: 5100px;
   height: 500px;
   width: 80%;
-  left: 10%;}
+  left: 10%;
+}
 
-.mySlides { display: none;}
+.mySlides {
+  display: none;
+}
 
-.slideshow-container { max-width: 1000px;}
+.slideshow-container {
+  max-width: 1000px;
+}
 
 .opinion {
   color: white;
@@ -415,7 +471,8 @@ body {
   position: absolute;
   left: 100px;
   right: 100px;
-  top: 100px;}
+  top: 100px;
+}
 
 .author {
   color: white;
@@ -425,35 +482,42 @@ body {
   position: absolute;
   left: 100px;
   right: 100px;
-  top: 350px;}
+  top: 350px;
+}
 
-.active { background-color: #717171;}
+.active {
+  background-color: #717171;
+}
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1.5s;}
+  animation-duration: 1.5s;
+}
 @-webkit-keyframes fade {
   from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
-  }}
+  }
+}
 @keyframes fade {
   from {
     opacity: 0.4;
   }
   to {
     opacity: 1;
-  }}
+  }
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
-  }}
+  }
+}
 
 .footer {
   position: absolute;
@@ -461,56 +525,75 @@ body {
   top: 5750px;
   height: 450px;
   width: 100%;
-  background-color: black;}
+  background-color: black;
+}
 
-.footerBox{
+.footerBox {
   position: relative;
   width: 25%;
-  height: 100%;s}
+  height: 100%;
+}
 
-.CUFE-footer{
+.CUFE-footer {
   font-size: 60px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   font-weight: bolder;
   position: absolute;
   left: 90px;
-  top: 50px;}
+  top: 50px;
+}
 
-  .MAGAZINE-footer{
+.MAGAZINE-footer {
   font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   font-weight: lighter;
   position: absolute;
   left: 90px;
-  top: 120px;}
+  top: 120px;
+}
 
-.text-in-footerBox{
+.text-in-footerBox {
   font-size: 15px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   font-weight: lighter;
   position: absolute;
   left: 90px;
-  top: 240px;}
+  top: 240px;
+}
 
-.footerArticle{
+.footerArticle {
   font-size: 25px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   font-weight: bolder;
   position: absolute;
   left: 60px;
-  top: 70px;}
+  top: 70px;
+}
 
-.footerText{
+.footerText {
   font-size: 18px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
   position: absolute;
   left: 60px;
-  top: 170px;}
-.footerText li {padding: 5px;}
-.footerText a {text-decoration: none; color: white;}
-.footerText :hover {color: reds;}
+  top: 170px;
+}
+.footerText li {
+  padding: 5px;
+}
+.footerText a {
+  text-decoration: none;
+  color: white;
+}
+.footerText :hover {
+  color: reds;
+}

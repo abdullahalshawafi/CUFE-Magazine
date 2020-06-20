@@ -1,228 +1,268 @@
 body {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    margin: 0;}
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
 
 .container {
-    background-color: rgb(53, 51, 51);
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 1;
-    width: 100%;
-    height: 3000px;
-    position: absolute;
-    text-align: center;
-    top: 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;}
-
+  background-color: rgb(53, 51, 51);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  width: 100%;
+  height: 3000px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 .icon-bar {
-    position: fixed;     
-    top: 50%;               
-    transform: translateY(-50%);    
-    left: 1%;}
-  
-.icon-bar a {
-    display: block;    
-    text-align: center;     
-    padding: 16px;                  
-    font-size: 25px;}
-  
-.facebook {color: white;}
-.twitter {color: white;}
-.youtube {color: white;}
-  
-.icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 10px;
-    padding-top: 15px;
-    margin-left: 15px;
-    font-size: 20px;
-    color: white;}
-  
-.vertical {
-    writing-mode: tb-rl;
-    transform: translateY(-50%);
-    position: fixed;
-    top: 50%;
-    right: 10px;
-    margin-right: 1%;
-    color: white;
-    font-size: 25px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}
-  
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1%;
+}
 
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  font-size: 25px;
+}
+
+.facebook {
+  color: white;
+}
+.twitter {
+  color: white;
+}
+.youtube {
+  color: white;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.vertical {
+  writing-mode: tb-rl;
+  transform: translateY(-50%);
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  margin-right: 1%;
+  color: white;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .topnav {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    justify-items: center;}
-  
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
 .topnav a {
-    float: left;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  margin-top: 50px;
+  z-index: 1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.topnav a:hover {
+  color: red;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
     display: block;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    margin-top: 50px;
-    z-index: 1;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    transition: all 0.3s;}
-  
-  .topnav a:hover {color: red;}
-  .topnav .icon {display: none;}
-  
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }}
-
-
-.editionContainer{
-    width: 70%;
-    height: 2500px;
-    position: absolute;
-    left: 15%;
-    top: 250px;
+  }
 }
 
-.editionRead{
-    display: flex;
-    width: 100%;
-    height: 25%;
-    position: relative;}
-
-.editionRead-TextBox{
-    background-color: #7713135e;
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 60%;
-    height: 95%;
-    position: relative;
+.editionContainer {
+  width: 70%;
+  height: 2500px;
+  position: absolute;
+  left: 15%;
+  top: 250px;
 }
 
-.editionRead-Text{
-    margin-top: 30%;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    margin-bottom: 15%;    
+.editionRead {
+  display: flex;
+  width: 100%;
+  height: 25%;
+  position: relative;
 }
 
-.BookButon{
-    position: absolute;
-    left: 35%;
-    width: 30%;
-    height: 40px;
-    text-align: center;
-    border: 1px solid orange;
-    text-align: center;
-    font-size: 30px;
-    color: orange;
-    padding: 10px;
+.editionRead-TextBox {
+  background-color: #7713135e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 95%;
+  position: relative;
 }
-.BookButon a{color: orange; text-decoration: none;}
 
-.editionRead-Img1{
-    background-image: url('Pic/edition1.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 40%;
-    height: 95%;
-    position: relative;}
+.editionRead-Text {
+  margin-top: 30%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-bottom: 15%;
+}
 
-.editionRead-Img2{
-    background-image: url('Pic/edition2.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 40%;
-    height: 95%;
-    position: relative;}
-  
-.editionRead-Img3{
-    background-image: url('Pic/edition3.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 40%;
-    height: 95%;
-    position: relative;}
-  
-.editionRead-Img4{
-    background-image: url('Pic/edition4.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 40%;
-    height: 95%;
-    position: relative;}
-  
-  
+.BookButon {
+  position: absolute;
+  left: 35%;
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  border: 1px solid orange;
+  text-align: center;
+  font-size: 30px;
+  color: orange;
+  padding: 10px;
+}
+.BookButon a {
+  color: orange;
+  text-decoration: none;
+}
 
+.editionRead-Img1 {
+  background-image: url("Pic/edition1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 95%;
+  position: relative;
+}
 
-.footer{
-    position: absolute;
-    display: flex;
-    top: 3000px;
-    height: 450px;
-    width: 100%;
-    background-color: black;}
-  
-.footerBox{
-    position: relative;
-    width: 25%;
-    height: 100%; }
-  
-.CUFE-footer{
-    font-size: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: bolder;
-    position: absolute;
-    left: 90px;
-    top: 50px;}
+.editionRead-Img2 {
+  background-image: url("Pic/edition2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 95%;
+  position: relative;
+}
 
-.MAGAZINE-footer{
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: lighter;
-    position: absolute;
-    left: 90px;
-    top: 120px;}
-  
-.text-in-footerBox{
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: lighter;
-    position: absolute;
-    left: 90px;
-    top: 240px;}
-  
-.footerArticle{
-    font-size: 25px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-weight: bolder;
-    position: absolute;
-    left: 60px;
-    top: 70px;}
-  
-.footerText{
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    position: absolute;
-    left: 60px;  top: 170px;}
-  .footerText li {padding: 5px;}
-  .footerText a {text-decoration: none; color: white;}
-  .footerText :hover {color: reds;}
+.editionRead-Img3 {
+  background-image: url("Pic/edition3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 95%;
+  position: relative;
+}
+
+.editionRead-Img4 {
+  background-image: url("Pic/edition4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 95%;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  top: 3000px;
+  height: 450px;
+  width: 100%;
+  background-color: black;
+}
+
+.footerBox {
+  position: relative;
+  width: 25%;
+  height: 100%;
+}
+
+.CUFE-footer {
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 90px;
+  top: 50px;
+}
+
+.MAGAZINE-footer {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 90px;
+  top: 120px;
+}
+
+.text-in-footerBox {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 90px;
+  top: 240px;
+}
+
+.footerArticle {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 60px;
+  top: 70px;
+}
+
+.footerText {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  position: absolute;
+  left: 60px;
+  top: 170px;
+}
+.footerText li {
+  padding: 5px;
+}
+.footerText a {
+  text-decoration: none;
+  color: white;
+}
+.footerText :hover {
+  color: reds;
+}
