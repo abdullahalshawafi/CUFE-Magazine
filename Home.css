@@ -76,7 +76,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
-  width: 50%;
+  width: 57%;
   height: 400px;
   position: absolute;
   text-align: center;
@@ -289,7 +289,7 @@ body {
 }
 
 .container21 {
-  background-image: url("Pic/Cover2.jpeg");
+  background-image: url("Pic/cover2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   filter: blur(8px);
