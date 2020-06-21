@@ -41,7 +41,7 @@ body {
 }
 
 .container11 {
-  background-image: url("Pic/Cover1.jpeg");
+  background-image: url("../Pic/Cover1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
@@ -72,7 +72,7 @@ body {
 }
 
 .container13 {
-  background-image: url("Pic/Background1.png");
+  background-image: url("../Pic/Background1.png");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
@@ -144,7 +144,7 @@ body {
   position: absolute;
   width: 60%;
   height: 600px;
-  background-image: url("Pic/cover2.jpeg");
+  background-image: url("../Pic/cover2.jpeg");
 }
 
 .KnowUs {
@@ -183,7 +183,7 @@ body {
   width: 47%;
   position: absolute;
   left: 0;
-  background-image: url("Pic/Profile1.jpg");
+  background-image: url("../Pic/Profile1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -193,7 +193,7 @@ body {
   width: 47%;
   position: absolute;
   left: 53%;
-  background-image: url("Pic/Profile2.jpg");
+  background-image: url("../Pic/Profile2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -289,7 +289,7 @@ body {
 }
 
 .container21 {
-  background-image: url("Pic/cover2.jpeg");
+  background-image: url("../Pic/cover2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   filter: blur(8px);
@@ -377,7 +377,7 @@ body {
 
 .edition1 {
   position: absolute;
-  background-image: url("Pic/edition1.jpg");
+  background-image: url("../Pic/edition1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -388,7 +388,7 @@ body {
 
 .edition2 {
   position: absolute;
-  background-image: url("Pic/edition2.jpg");
+  background-image: url("../Pic/edition2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -398,7 +398,7 @@ body {
 
 .edition3 {
   position: absolute;
-  background-image: url("Pic/edition3.jpg");
+  background-image: url("../Pic/edition3.jpg");
   background-size: cover;
   background-position: center;
   left: 55%;
@@ -408,7 +408,7 @@ body {
 
 .edition4 {
   position: absolute;
-  background-image: url("Pic/edition4.jpg");
+  background-image: url("../Pic/edition4.jpg");
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -416,7 +416,7 @@ body {
 }
 
 .container31 {
-  background-image: url("Pic/Cover1.jpeg");
+  background-image: url("../Pic/Cover1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;

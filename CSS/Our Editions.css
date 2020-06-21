@@ -153,7 +153,7 @@ body {
 }
 
 .editionRead-Img1 {
-  background-image: url("Pic/edition1.jpg");
+  background-image: url("../Pic/edition1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
@@ -162,7 +162,7 @@ body {
 }
 
 .editionRead-Img2 {
-  background-image: url("Pic/edition2.jpg");
+  background-image: url("../Pic/edition2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
@@ -171,7 +171,7 @@ body {
 }
 
 .editionRead-Img3 {
-  background-image: url("Pic/edition3.jpg");
+  background-image: url("../Pic/edition3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
@@ -180,7 +180,7 @@ body {
 }
 
 .editionRead-Img4 {
-  background-image: url("Pic/edition4.jpg");
+  background-image: url("../Pic/edition4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 40%;
