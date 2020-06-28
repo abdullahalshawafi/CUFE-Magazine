@@ -1,0 +1,599 @@
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1%;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  font-size: 25px;
+  color: white;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.vertical {
+  writing-mode: tb-rl;
+  transform: translateY(-50%);
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  margin-right: 1%;
+  color: white;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container11 {
+  background-image: url("../images/Cover1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  text-align: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container12 {
+  background-color: hsl(233, 50%, 10%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container13 {
+  background-image: url("../images/Background1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  width: 57%;
+  height: 400px;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  left: 25%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  margin-top: 50px;
+  z-index: 1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.topnav a:hover {
+  color: red;
+}
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+.Who {
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: 1000px;
+}
+
+.sidebar1 {
+  position: absolute;
+  width: 40%;
+  height: 600px;
+  background-color: hsl(22, 100%, 50%);
+  left: 60%;
+}
+
+.mainbar1 {
+  position: absolute;
+  width: 60%;
+  height: 600px;
+  background-image: url("../images/cover2.jpeg");
+}
+
+.KnowUs {
+  height: 1150px;
+  width: 100%;
+  position: absolute;
+  top: 1600px;
+  background-color: hsl(233, 50%, 10%);
+  opacity: 0.9;
+}
+
+.rowKnowWord {
+  color: white;
+  position: absolute;
+  left: 48%;
+  width: 40%;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 4%;
+}
+
+.imgKnow {
+  height: 600px;
+  width: 86%;
+  top: 250px;
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  left: 7%;
+}
+
+.imgKnow1 {
+  height: 600px;
+  width: 47%;
+  position: absolute;
+  left: 0;
+  background-image: url("../images/Profile1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgKnow2 {
+  height: 600px;
+  width: 47%;
+  position: absolute;
+  left: 53%;
+  background-image: url("../images/Profile2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rowKnow {
+  height: 600px;
+  width: 88%;
+  top: 850px;
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  left: 6%;
+}
+
+.colKnow1 {
+  height: 100px;
+  width: 45%;
+  position: absolute;
+  left: 53.5%;
+  text-align: center;
+  color: white;
+}
+
+.colKnow2 {
+  height: 100px;
+  width: 45%;
+  position: absolute;
+  left: 1.5%;
+  text-align: center;
+  color: white;
+}
+
+.KnowMore {
+  display: flex;
+  height: 60px;
+  width: 320px;
+  position: absolute;
+  left: 36%;
+  padding: 0;
+  text-align: center;
+  color: white;
+  top: 120px;
+}
+
+.knowYelBox {
+  width: 90px;
+  height: 100%;
+  background-color: #dab028;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.knowYelBox a {
+  text-decoration: none;
+  color: black;
+}
+
+.yellow-Box-Text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.knowWhiteBox {
+  width: 230px;
+  height: 100%;
+  background-color: white;
+}
+
+.knowWhiteBox a {
+  text-decoration: none;
+  color: black;
+}
+
+.knowWhiteBox :hover {
+  background-color: grey;
+  color: white;
+}
+
+.white-Box-Text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  padding-top: 16px;
+  padding-bottom: 15px;
+}
+
+.container21 {
+  background-image: url("../images/cover2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  width: 100%;
+  height: 2100px;
+  top: 2750px;
+  position: absolute;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container22 {
+  background-color: rgba(255, 208, 0, 0.692);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  width: 100%;
+  height: 2100px;
+  position: absolute;
+  text-align: center;
+  top: 2750px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.ourEditions {
+  position: absolute;
+  height: 100px;
+  width: 70%;
+  top: 2850px;
+  left: 15%;
+}
+
+.editionWord {
+  position: absolute;
+  padding: 10px;
+  top: 10px;
+  left: 85%;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.showAll {
+  position: absolute;
+  background-color: rgb(17, 17, 17);
+  font-size: 25px;
+  font-weight: bold;
+  left: 1%;
+  top: 15px;
+  width: 160px;
+  text-align: center;
+  padding: 20px;
+}
+.showAll a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffd000;
+}
+.showAll :hover {
+  color: white;
+}
+
+.editionImgContainer1 {
+  position: absolute;
+  display: flex;
+  top: 3050px;
+  left: 15%;
+  height: 700px;
+  width: 70%;
+}
+
+.editionImgContainer2 {
+  position: absolute;
+  top: 3900px;
+  left: 15%;
+  height: 700px;
+  width: 70%;
+}
+
+.edition1 {
+  position: absolute;
+  background-image: url("../images/edition1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 55%;
+  height: 700px;
+  width: 50%;
+}
+
+.edition2 {
+  position: absolute;
+  background-image: url("../images/edition2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 50%;
+}
+
+.edition3 {
+  position: absolute;
+  background-image: url("../images/edition3.jpg");
+  background-size: cover;
+  background-position: center;
+  left: 55%;
+  height: 700px;
+  width: 50%;
+}
+
+.edition4 {
+  position: absolute;
+  background-image: url("../images/edition4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 50%;
+}
+
+.container31 {
+  background-image: url("../images/Cover1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 4850px;
+  text-align: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-bsackground-size: cover;
+  -o-background-size: cover;
+}
+
+.container32 {
+  background-color: hsl(233, 50%, 10%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  text-align: center;
+  top: 4850px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.userComments {
+  position: absolute;
+  top: 5100px;
+  height: 500px;
+  width: 80%;
+  left: 10%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+}
+
+.opinion {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  top: 100px;
+}
+
+.author {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  top: 350px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  top: 5750px;
+  height: 450px;
+  width: 100%;
+  background-color: black;
+}
+
+.footerBox {
+  position: relative;
+  width: 25%;
+  height: 100%;
+}
+
+.CUFE-footer {
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 90px;
+  top: 50px;
+}
+
+.MAGAZINE-footer {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 90px;
+  top: 120px;
+}
+
+.text-in-footerBox {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: lighter;
+  position: absolute;
+  left: 90px;
+  top: 240px;
+}
+
+.footerArticle {
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bolder;
+  position: absolute;
+  left: 60px;
+  top: 70px;
+}
+
+.footerText {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  position: absolute;
+  left: 60px;
+  top: 170px;
+}
+.footerText li {
+  padding: 5px;
+}
+.footerText a {
+  text-decoration: none;
+  color: white;
+}
+.footerText :hover {
+  color: reds;
+}
